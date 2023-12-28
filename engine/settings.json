@@ -1,0 +1,5 @@
+{"programs":["linsi","t_coffee","muscle","kalign","dialign2-2","probcons","clustalo"],
+"raw_seqs_path": "./sequences",
+"aligned_seqs_path": "./Data/",
+"results_path": "metrics.csv"
+}

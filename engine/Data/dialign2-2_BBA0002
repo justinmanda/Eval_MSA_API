@@ -1,0 +1,490 @@
+ 
+                           DIALIGN 2.2.1 
+                           *************
+ 
+          Program code written by Burkhard Morgenstern and Said Abdeddaim 
+             e-mail contact: dialign (at) gobics (dot) de 
+ 
+          Published research assisted by DIALIGN 2 should cite:  
+ 
+             Burkhard Morgenstern (1999).
+             DIALIGN 2: improvement of the segment-to-segment
+             approach to multiple sequence alignment.
+             Bioinformatics 15, 211 - 218. 
+
+          For more information, please visit the DIALIGN home page at 
+
+             http://bibiserv.techfak.uni-bielefeld.de/dialign/ 
+ 
+         ************************************************************
+ 
+
+
+   program call:  dialign2-2 -fa -fn ./Data/dialign2-2_BBA0002 ./sequences/BBA0002.tfa  
+
+ 
+   Aligned sequences:          length:
+   ==================          =======
+ 
+   1) seq001                     165
+   2) seq002                     221
+   3) seq003                     221
+   4) seq004                     221
+   5) seq005                     214
+   6) seq006                     213
+   7) seq007                     214
+   8) seq008                     214
+   9) seq009                     214
+  10) seq010                     213
+  11) seq011                     213
+  12) seq012                     214
+  13) seq013                     213
+  14) seq014                     214
+  15) seq015                     214
+  16) seq016                     215
+  17) seq017                     218
+  18) seq018                     218
+  19) seq019                     219
+  20) seq020                     219
+  21) seq021                     219
+  22) seq022                     214
+  23) seq023                     221
+  24) seq024                     220
+  25) seq025                     221
+  26) seq026                     184
+  27) seq027                     220
+  28) seq028                     220
+  29) seq029                     219
+  30) seq030                     224
+  31) seq031                     219
+  32) seq032                     218
+  33) seq033                     220
+  34) seq034                     224
+  35) seq035                     228
+  36) seq036                     214
+  37) seq037                     156
+  38) seq038                     156
+  39) seq039                     157
+  40) seq040                     181
+  41) seq041                     181
+  42) seq042                     181
+  43) seq043                     173
+  44) seq044                     174
+  45) seq045                     160
+  46) seq046                     174
+  47) seq047                     176
+  48) seq048                     176
+  49) seq049                     173
+  50) seq050                     176
+  51) seq051                     174
+  52) seq052                     180
+  53) seq053                     178
+  54) seq054                     176
+  55) seq055                     137
+  56) seq056                     137
+  57) seq057                     144
+  58) seq058                     144
+  59) seq059                     144
+  60) seq060                     144
+  61) seq061                     142
+  62) seq062                     139
+  63) seq063                     147
+  64) seq064                     138
+  65) seq065                     138
+  66) seq066                     213
+  67) seq067                     213
+  68) seq068                     213
+  69) seq069                     215
+  70) seq070                     188
+  71) seq071                     219
+
+   Average seq. length:          192.5 
+
+
+   Please note that only upper-case letters are considered to be aligned. 
+
+
+   Alignment (DIALIGN format):
+   ===========================
+ 
+seq001             1   ----RPARCY RYQKNKPYPK SRYNRAVPDS KIRIY----- --DLGKKKA- 
+seq002             1   M-ARRPARCY RYQKNKPYPK SRYNRAVPDS KIRIY----- --DLGKKKA- 
+seq003             1   M-ARRPARCY RYCKNKPYPK SRYNRAVPDS KIRIF----- --DLGRKRA- 
+seq004             1   M-ARRPARCY RYCKNKPYPK SRYNRAVPDS KIRIF----- --DLGRKRA- 
+seq005             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq006             1   M-GRRPARCY RYCKNKPYPK SRF-RGVPDA KIRIF----- --DLGRKKA- 
+seq007             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq008             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq009             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq010             1   --GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq011             1   --GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq012             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq013             1   --GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq014             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq015             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDA KIRIF----- --DLGRKKA- 
+seq016             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGRKKA- 
+seq017             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGRKKA- 
+seq018             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGRKKA- 
+seq019             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGKKRA- 
+seq020             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGKKRA- 
+seq021             1   M-GRRPARCY RYCKNKPYPK SRFCRGVPDP KIRIF----- --DLGKKKA- 
+seq022             1   M-GRRPARCY RYIKNKPYPK SRFCRGVPDA KIRIF----- --DLGNKRA- 
+seq023             1   M-GRRPARCY RQIKGKPYPK SRYCRGVPDP KIRIY----- --DVGMKRK- 
+seq024             1   M-GRRPARCY RQIKGKPYPK SRYCRGVPDP KIRIY----- --DVGMKRK- 
+seq025             1   M-GRRPARCY RQIKGKPYPK SRYCRGVPDP KIRIY----- --DVGMKRK- 
+seq026             1   ---------- ---------- ---------- ---------- -----MKRK- 
+seq027             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIY----- --DVGMKKK- 
+seq028             1   M-GRRPARCY RQIKNKPYPK SRFCRGVPDP KIRIY----- --DVGMKKK- 
+seq029             1   M-GRRPARCY RQIKNKPYPK SRFCRGVPDP KIRIY----- --DVGMKRK- 
+seq030             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIY----- --DVGMKKK- 
+seq031             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIY----- --DVGMKKK- 
+seq032             1   M-GRRPARCN RQIKNKPYPK SRYCRGVPDP KIRIY----- --DVGMKKK- 
+seq033             1   M-GRRPARCY RQIKNKPCPK SRYCRGVPDP KIRIY----- --DVGMKRK- 
+seq034             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIY----- --DVGMKKK- 
+seq035             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIF----- --DVGAKKR- 
+seq036             1   M-GRRPARCY RQIKNKPYPK SRYCRGVPDP KIRIF----- --DVGQKKR- 
+seq037             1   ----KPGAMY RNSSKPAYTR REYISGIPGK KIAQF----- --DMGNNGA- 
+seq038             1   ----KPGAMY RNSSKPAYTR REYISGIPGK KIAQF----- --DMGNNGA- 
+seq039             1   ----KPGAHF RNSIKPAYTR REYISGIPGK GIAQF----- --KMGNNGA- 
+seq040             1   M-ALRPAKID RYVDKPAYTR REYIRGAPGP KITIF----- --DMGNPAG- 
+seq041             1   M-ALRPAKID RYVDKPAYTR REYIRGAPGP KITIF----- --DMGNPAG- 
+seq042             1   M-ALRPAKID RYVDKPAYTR REYIRGAPGP KITIF----- --DMGNPAG- 
+seq043             1   M-VNRPARIY REWKGPAYTR REYIKGVPDP KIQQF----- --DMGNPAG- 
+seq044             1   maSLRPNRCY RDVDKPPYTR KEYVKGVPQP KVVHF----- --IMGNLSA- 
+seq045             1   mv-------- -----RAYTR REYIKKIPGS KIVQY----- --DMGNLSA- 
+seq046             1   M-ARKPARMW RRL-ERPYTR TEYIDGAPGT RVRMF----- --DMGNKSA- 
+seq047             1   M-VTKPARMY TRITGPAYTR KEFMGGVPYP KITTF----- --VQGNQKR- 
+seq048             1   M-VTKPARMY SRITGPAYTR KEFMGGVPYP KITTF----- --VQGNQKK- 
+seq049             1   M-VRKPGSMY RNVRQRSFTR RKYMGGVPGS QVIHY----- --DMGDK-A- 
+seq050             1   M-SEKPASMY RKIDKPSYTR RDYVTGIPGS KIAQH----- --KMGDLQAd 
+seq051             1   M-PLRPARCY THFSGPPYTR REYIHGVPPP KITRF----- --EMGNREM- 
+seq052             1   M-PVRPARCY KRIKGPPYTR EEYIHGAPMI QIPKF----- --DMGTTSA- 
+seq053             1   M-PLRPGRCY RHFSGPAYTR KEYIPGIPQP KITKF----- --TSGNPNG- 
+seq054             1   M-PLRPGRCY RHFSGPAYTR KEYIPGVPMP KITKF----- --TMGNVNG- 
+seq055             1   ML-------- ---------- --------VP KRVKHRREFR GKMRGEAKG- 
+seq056             1   ML-------- ---------- --------VP KRVKHRREFR GKMRGEAKG- 
+seq057             1   ML-------- ---------- --------VP KRVKYRREFR GNMRGRAKG- 
+seq058             1   ML-------- ---------- --------LP KRVKYRREHR GKMRGRAKG- 
+seq059             1   ML-------- ---------- --------MP KRVKFRREHR GKMRGRAKG- 
+seq060             1   ML-------- ---------- --------LP KRVKYRRQHR PKTTGRSKG- 
+seq061             1   ML-------- ---------- --------SP RRTKFRKQQR GRMGGLAHR- 
+seq062             1   ML-------- ---------- --------SP RRTKFRKQQR GRMRGLAER- 
+seq063             1   ML-------- ---------- --------MP KRVKHRKVQR GRMKGKATR- 
+seq064             1   ML-------- ---------- --------QP TRLKYRKQQK GRNTGIATR- 
+seq065             1   ML-------- ---------- --------QP KRTKFRKPHK VSYEGKAKG- 
+seq066             1   M-ARRPSRCY RFCKNKPYPK SRFCRGVPDP KIRNF----- --DIGRRRA- 
+seq067             1   M-ARRPSRCY RFCKNKPYPK SRFCRGVPDP KIRNF----- --DIGRRRA- 
+seq068             1   M-ARRPARCY RFCKNKPYPK SRFCRGVPDP RIRTF----- --DIGKRRA- 
+seq069             1   M-GRRPAKCY RYCKNKAYPK SRYCRGVPEA KIRIY----- --DCGMRKL- 
+seq070             1   M-GRRPWKCY RIVKNKPYPK SRYCRGVPEP KIKLY----- --DLGNKSC- 
+seq071             1   M-GRRPGRCY RYLSKKAYPK SRFNRGVPDS KIQIF----- --DLGRRKA- 
+                                                                 
+                       5055666666 6666666666 6666666676 7776600000 0066665530 
+ 
+seq001            39   --T--VDEFP LCVHLVSNEL EQLSSEALEA ARICANKYMT TVSGRDAFHL 
+seq002            42   --T--VDEFP LCVHLVSNEL EQLSSEALEA ARICANKYMT TVSGRDAFHL 
+seq003            42   --G--VDEFP LCIHLVSNEY EQITSEALEA ARICANKYLV KIGGKDSFHL 
+seq004            42   --G--VDEFP LCIHLVSNEY EQITSEALEA ARICANKYLV KIGGKDSFHL 
+seq005            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq006            41   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq007            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq008            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq009            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq010            41   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq011            41   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq012            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq013            41   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq014            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KSCGKDGFHI 
+seq015            42   --K--VDEFP LGGHMVSDEY EQLSSEALEA ARICANKYMV KSCGRDGFHM 
+seq016            42   --K--VDEFP LCGHMVSDEY EQLSSEALEA ARICANKYMV KTCGKDGFHI 
+seq017            42   --T--VEDFP LCVHLVSDEY EQLSSEALEA GRICCNKYLV KYCGKDQFHI 
+seq018            42   --T--VEDFP LCVHLVSDEY EQLSSEALEA GRICCNKYLV KYCGKDQFHI 
+seq019            42   --N--VDDFP LCVHLVSDEY EQLSSEALEA GRICCNKYLV KNCGKDQFHI 
+seq020            42   --N--VDDFP LCVHLVSDEY EQLSSEALEA GRICCNKYLV KNCGKDQFHI 
+seq021            42   --A--VDDFP LCVHLVSDEY EQLSSEALEA GRICCNKYLV KNCGKDQFHV 
+seq022            42   --N--VDTFP ACVHMMSNER EHLSSEALEA ARICANKYMV KNCGKDGFHL 
+seq023            42   --G--VDEFP YCVHLVSWEK ENVSSEALEA ARIACNKYMV KSAGKDAFHL 
+seq024            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMV KSAGKDAFHL 
+seq025            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMV KSAGKDAFHL 
+seq026             5   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMV KSAGKDAFHL 
+seq027            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMT KYAGKDAFHL 
+seq028            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMT KFAGKDAFHL 
+seq029            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMT KSAGKDAFHL 
+seq030            42   --G--VDEFP FCVHLVSWEK ENVSSEALEA ARIACNKYMA KYAGKDAFHL 
+seq031            42   --G--VDEFS HCVHLVSWEK ENVTSEALEA ARIACNKYMT KSAGKDAFHL 
+seq032            42   --G--VDEFS HCVHLVSWEK ENVTSEALEA G-IACNKYMT KSAGKDAFHL 
+seq033            42   --G--VDEFP YCVHLVSWER ENVSSEALEA ARIVCNKYMT KSAGKDAFHL 
+seq034            42   --G--VDEFP YCVHLVSWEK ENVSSEALEA ARIACNKYMT KNAGKDAFHL 
+seq035            42   --L--VDEFP FCVHLVSWEK ENVSSEALEA GRIACNKYMV KFAGKDGFHL 
+seq036            42   --S--ADDFP LCVHLVSWEK ENVSSEALEA ARIACNKYMA KHAGKDAFHL 
+seq037            39   --G--P-TYP AQVELVVEKP VQIRHNALEA ARVAANRYVQ NSGAAANYKF 
+seq038            39   --G--P-TYP AQVELVVEKP VQIRHNALEA ARVAANRYVQ NSGAAANYKF 
+seq039            39   --G--P-TYP AQVENVVEKP VQIRHNALEA ARNAANRFVQ NSGAAANYKF 
+seq040            42   --D-----FE FEVSLHTAEP VQIRQNALEA ARQQVNRYLQ KNVGRSNYHF 
+seq041            42   --D-----FE FEVALHTAEP VQIRQNALEA ARQQVNRYLQ KNVGRSNYHF 
+seq042            42   --D-----FE FEVALHVSQP VQIRQNALEA ARQQVNRYLQ KNVGRSNYHF 
+seq043            42   --D-----FD VEVSLVARER AQVTHNALEA ARVAANRYLT KTVGRQNYHL 
+seq044            43   --E-----FP VKVNLVATRP IQIRHNALEA ARVAANKYLT KMCGRMGYKF 
+seq045            30   --E-----FP ISLSVAVKAP TQITHNALEA ARIASNRYMQ RRAGRMGYHL 
+seq046            41   --D-----FP VMLTLVAKEA VQIRENALEA ARVVANKYVS RRAGASNYKL 
+seq047            42   --D-----FP IEMQLIAMES CQVRHTALEA ARVSVNRRMT EAAGLDNFYL 
+seq048            42   --D-----FP IEMRLVAEEP CQIRHTALEA ARVSVNRRMT EAAGLDYFYL 
+seq049            41   --N--T-SFP VKISLIVEEK CQIRHTALEA ARITANRHLV ADTGKMGFYM 
+seq050            43   adD-----YP VQISLVPQEE CQLRHGSLEA ARLSANRHLI KELGEGNYKM 
+seq051            42   --M---EKWE IKGELVMLEA GQIRHNALEA ARIAVNKYLA TTIGDKNFYF 
+seq052            42   --AarT-AFT MTAKLVVEER GQIRMQALEA ARQMASKYLT KYVGDANYYL 
+seq053            42   --D-----YD YEVRLITTEI GQIRHNALEA VRTLTLKTLS KKTGSETSFF 
+seq054            42   --N-----YD YELRLVALEK GQIRHNALEA ARVLALKQLT NKTGSDQnfa 
+seq055            24   --G--KEVSF GEYGLQATTS HWITNRQIEA ARIAMTRYMK RGGKV----- 
+seq056            24   --G--KEVAF GEYGLQATTS HWITNRQIEA ARIAMTRYMK RGGKV----- 
+seq057            24   --G--TEVAF GEYGLQAVEA SWITNRQIEA ARIAMTRYMK RGGKV----- 
+seq058            24   --G--TEVHF GEFGIQALEA SWITNRQIEA ARIAMTRYMK RGGKV----- 
+seq059            24   --G--TEVHF GEYGLQALEA SWITNRQIEA ARIAMTRYMK RGGKV----- 
+seq060            24   --G--NYVTF GEFGLQATTT SWITSRQIES ARIAMTRYMK RGGKV----- 
+seq061            24   --G--STLNF GDFALQAQEP AWITSRQIEA SRRAMTRYIR RGGKI----- 
+seq062            24   --G--STLNF GDYALQATEP CWITSRQIEA ARRAMTRYIR RGGKI----- 
+seq063            24   --G--NFIAY GDFAIQATEC AWITSNQIEA ARIAINRYVK RGGKL----- 
+seq064            24   --G--NKVSF GEFGLKAVGR GRLTARQIEA ARRAMTRHIK RGGRI----- 
+seq065            24   --N--KQVDF GEFGLMALEG AWIDARQIES ARIAISKRLL KTGKM----- 
+seq066            42   --T--VDEFP VCIHVVSREL EQIASEALEA ARIQANKYMV KRANKDVFHM 
+seq067            42   --T--VDEFP VCIHVVSREL EQIASEALEA ARIQANKYMV KRANKDVFHM 
+seq068            42   --P--VDEFP VCVHVVSREL EQISSEALEA ARIQANKYMV KRANKECFHM 
+seq069            42   --N--ADTFP LTYHLISMER EQIGSEALEA ARINANKYMI KNAGKEAYHI 
+seq070            42   --Dek--SLP LCVHLISDDF QQISSESIES ARVACNKYLT TKVGKDLFHL 
+seq071            42   --G--VLEFP LLVNCISNER ENLSAEALEA ARICANKYMV KHAGKDNFHL 
+                                                                 
+                       0020034445 5555555555 5666666666 6666666666 6556665777 
+ 
+seq001            85   R-VRVHPFHV LRINKMLSCA GADRLQQGMR GAWGKPHGLA ARVDI-GQII 
+seq002            88   R-VRVHPFHV LRINKMLSCA GADRLQQGMR GAWGKPHGLA ARVDI-GQII 
+seq003            88   R-VRAHPFHV VRINKMLSCA GADRLQTGMR HAFGKPNGLV ARVNI-GQVL 
+seq004            88   R-VRAHPFHV VRINKMLSCA GADRLQTGMR HAFGKPNGLV ARVNI-GQIL 
+seq005            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq006            87   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq007            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq008            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq009            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq010            87   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq011            87   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV AKVHI-GQVI 
+seq012            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq013            87   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq014            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq015            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq016            88   R-VRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVHI-GQVI 
+seq017            88   R-MRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVRI-GQPI 
+seq018            88   R-MRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVRI-GQPI 
+seq019            88   R-MRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVRI-GQPI 
+seq020            88   R-MRLHPFHV IRINKMLSCA GADRLQTGLR GAFGKPQGTV ARVRI-GQPI 
+seq021            88   R-MRLHPFHV IRINKMLSCA GADRLQTGMR GAFGKPQGTV ARVRI-GQPI 
+seq022            88   R-VRKHPFHV TRINKMLSCA GADRLQTGMR GAYGKPQGLV ARVDI-GDIL 
+seq023            88   R-IRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKALGTC ARVAI-GQVL 
+seq024            88   R-IRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKALGTC ARVAI-GQVL 
+seq025            88   R-IRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKALGTC ARVAI-GQVL 
+seq026            51   R-IRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKALGTC ARVAI-GQVL 
+seq027            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVSI-GQVL 
+seq028            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGVC ARVAI-GQVL 
+seq029            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGVC ARVAI-GQVL 
+seq030            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVMI-GQVL 
+seq031            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVDI-GQVL 
+seq032            87   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVDI-GQVL 
+seq033            88   R-VRVHPFHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVDI-GQVL 
+seq034            88   R-VRVHPVHV LRINKMLSCA GADRLQTGMR GAFGKPQGTC ARVDI-GQVL 
+seq035            88   R-VRVHPFHV LRSNKMLSCA GADRLQTGMR GAFGKPQGTC ARVAI-GQVL 
+seq036            88   R-VRAHPYHV LRINKMLSCA GADRLQTGMA GAFGKPQGVC ARVRI-GQVL 
+seq037            84   R-IRKFPFHV IRENK----- ------DGMR APFGKPVGTA ARVHG-ANHI 
+seq038            84   R-IRKFPFHV IRENK----- ------DGMR APFGKPVGTA ARVHG-ANHI 
+seq039            84   R-IRKFPFHV IREqd----- -----GDGMR APFGKSVGTA ARSHG-ANHD 
+seq040            85   K-IRVYPFQV LRENPMATGR KADRYGNGMR RPFGKPIGLA ARLKK-DQKI 
+seq041            85   K-IRVYPFQV LRENPMATGR KADRYGNGMR RPFGKPIGLA ARLKR-DQKI 
+seq042            85   K-IRVYPFQV LRENPMATGR KADRYGNGMR RPFGKPIGLA ARLKK-DQKV 
+seq043            85   K-IRVYPHHV LRENPLATGA GADRVQEGMR LAFGKPIGTA ARVRE-GQRV 
+seq044            86   Q-IRVYPHQI LREHKMATGA GADRISDGMR LAFGKPIGTA ARVKE-GQAI 
+seq045            73   K-IRVYPHHI VRENPMATGA GADRVQDGMR KAFGKPVSTV ALVKK-NQKI 
+seq046            84   K-LRIFPHHI LREHKMAVGA GADRISQGMR AAFGKPVGRA ARVKP-GTKI 
+seq047            85   K-VVPYPHHV LREHKMATGA GADRISSGMR AAFGRPVGTA ARVYQ-NDVI 
+seq048            85   K-VVPYPHHV LREHKMATGA GADRISSGMR AAFGRPVGTA ARVYP-DDVI 
+seq049            86   K-LRVYPHEV IRENKQATGA GADRVSSGMR RAFGKNVGTA ARVKP-MQKI 
+seq050            88   Q-LRKFPHQI IRENKQATGA GADRVSDGMR QAFGVPVGTA ARIQP-GDQL 
+seq051            87   R-IRVYPHHV IRENKMMAFA GADRLQDGMR QAFGKPVGTA ARVYP-GTVV 
+seq052            89   R-LNVVPHHV LRENRMLAMA GADRLQEGMR LAFGSPAGRA ARVEP-GQVL 
+seq053            85   mWILKYPHHV LRENKMMAFA GADRLQDGMR LSFGTPIGTA ARIEKLGETL 
+seq054            85   liVLKYPHHV IRENKMMAFA GADRLQDGMR LSFGKPIGTA ARIERLGDII 
+seq055            65   -WIKIFPHKS YT-------- -AKAIGVRMG SGKGAPEGWV APVKR-GKVM 
+seq056            65   -WIKIFPHKS YT-------- -AKAIGVRMG SGKGAPEGWV APVKR-GKVM 
+seq057            65   -WIKIFPHKS YT-------- -SKPIGVRMG KGKGAPEGWV SPVKR-GKIM 
+seq058            65   -WIKIFPSKP YT-------- -AKPLEVRMG SGKGAPEGWV AVVKP-GKVL 
+seq059            65   -WIKIFPSKP YT-------- -AKPLEVRMG SGKGAPEGWV AVVKP-GKVM 
+seq060            65   -WIKIFPHtP YT-------- -KKPLEVRMG AGKGAVEGWI AVVKP-GRIL 
+seq061            65   -WIRIFPDKP VT-------- -MRPAETRMG SGKGNPEFWV AVVKP-GRIL 
+seq062            65   -WIRIFPDKP VT-------- -MRPAETRMG SGKGSPEYWV AVVKP-GRVM 
+seq063            65   -WIKIFPDKP VT-------- -QKPAETRMG SGKGSPEYWV AVVKP-GRVL 
+seq064            65   -WIRVFPDKP IT-------- -EKPIQVRMG GGKGNVEYYI AEIKP-GKVL 
+seq065            65   -WIRIFPHMS LT-------- -KKPLEVRMG SGKGSPEKWV AVVKA-GTVM 
+seq066            88   R-TRAHPFHV LRINKMLSCA GADRLQTGMR GAFGKPNGVC ARVRI-GQIL 
+seq067            88   R-TRAHPFHV LRINKMLSCA GADRLQTGMR GAFGKPNGVC ARVRI-GQIL 
+seq068            88   R-IRAHPFHV LRINKMLSCA GADRLQTGMR QSYGKPNGTC ARVRI-GQIL 
+seq069            88   R-VRVHPFHV CRINKMLSCA GADRLQQGMR GAFGKPNGLA ARVRI-GQPL 
+seq070            88   K-IRIHPFHV IRINKMLSCA GADRLQSGMR GAFGKPCGLT SRVTK-NQVL 
+seq071            88   R-IRVYPFHV LRINKMLSCA GADRLQTGMR GSFGKPYGRA ARVVF-NQPI 
+                                                                 
+                       7078888888 8988888888 8888888888 8888776655 5554404444 
+ 
+seq001           133   FSVRTKDSNK DVVVEGLRRA RYKFPGQQKI ILS------- ---------- 
+seq002           136   FSVRTKDSNK DVVVEGLRRA RYKFPGQQKI ILSKKWGFTN LDRPEYLKKR 
+seq003           136   MSVRTKDSSR ATAIEALRRC QYKFPGQQRI IVSKKWGFSQ YARDEYIEKR 
+seq004           136   MSVRTKDSSR ATAIEALRRC QYKFPGQQRI IVSKKWGFSQ YARDEYIEKR 
+seq005           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq006           135   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq007           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq008           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq009           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq010           135   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq011           135   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFENMV 
+seq012           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq013           135   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq014           136   MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq015           136   MSIRTKLQNE EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV 
+seq016           136   MSVRTKAQNK EHVIEALRRA KFKFPGRQKI HISKKYGFTK FNATDFDDLL 
+seq017           136   MSVRSSDRYK AQVIEALRRA KFKFPGRQKI YVSKKWGFTK YERERYEELR 
+seq018           136   MSVRSSDRYK AQVIEALRRA KFKFPGRQKI YVSKKWGFTK YERERYEELR 
+seq019           136   MSVRSSDRWK AQVIEALRRA KFKFPGRQKI YVSKKWGFTK YERDEFEKLR 
+seq020           136   MSVRSSDRWK AQVIEALRRA KFKFPGRQKI YVSKKWGFTK YERDEFEKLR 
+seq021           136   MSVRSSDRWK AQVIEALRRA KFKFPGRQKI YVSKKWGFTK YEREEFEKLR 
+seq022           136   FSMRIKEGNV KHAIEAFRRA KFKFPGRQII VSSRKWGFTK WDREDYERMR 
+seq023           136   LSVRCKDAHG HHAQEALRRA KFKFPGRQKI IVSRKWGFTK FNRADYTKLR 
+seq024           136   LSVRCKDAHG HHAQEALRRA KFKFPGRQKI IVSRKWGFTK FNRADFTKLR 
+seq025           136   LSVRCKDNHG VHAQEALRRA KFKFPGRQKI IVSRKWGFTK FNRAEYTKLR 
+seq026            99   LSVRCKDNHG VHAQEALRRA KFKFPGRQKI IVSRKWGFTK FNRAEYTKLR 
+seq027           136   LSVRCKDGNS HHAQEALRRA KFKFPARQKI IVSRKWGFTK FNRTDYIKWK 
+seq028           136   LSVRCKDNNS HNAQEALRRA KFKFPGRQKI IVSRKWGFTK INRADYPRLK 
+seq029           136   LSVRCKDGNS NHAQEALRRA KFKFPGRQKI IVSRKWGFTK FSRTDYLKYK 
+seq030           136   LSVRCKDGNS NHAQEALRRA KFKFPGRQKI IISRKWGFTK FNRTDYLRWK 
+seq031           136   LSVRCKPNNA VHASEALRRA KFKFPGRQKI IESRKWGFTK FSRDEYVRLK 
+seq032           135   LSVRCKPNNA VHASEALRRA KFKFPGRQKI IESRKWGFTK FSRDEYVRLK 
+seq033           136   LSVRCKDNNA AHASEALRRA KFKFPARQKI IESRKWGFTK FSRADYLKYK 
+seq034           136   LSVRCKESNA KHAEEALRRA KFKFPGRQKI IHSRKWGFTK FSRVRVLKLK 
+seq035           136   LSVRSRDNHS NHAQEALRRA KFKFPGREKI IVNRKWGFTK YTRADYLKWK 
+seq036           136   LSVRCATRTA AHAQEALRRA KFKFPGRQRV IFSVQVGFTR FKRDEYLKLK 
+seq037           121   FIAWVNPD-- PNVEEAWRRA KMKVTPTINI DSSPAGNA-- ---------- 
+seq038           121   FIAWVNPD-- PNVEEAWRRA KMKVTPTINI DSSPAGNA-- ---------- 
+seq039           122   FIAWVNPD-- PAVEFAWRRA YMKVTPTVNI DSSPAGNA-- ---------- 
+seq040           133   LSIRVNRQHL KFAIEGARRA AMKFPCKCYY RIYDKEGNDV TTKILSQSL- 
+seq041           133   LSIRVNRQHL KFAIEGARRA AMKFPCKCYY RIYDKEGNDV TTKILSQGL- 
+seq042           133   LSIRVNRQHL KFAIEGARRA AMKFPVKCYY RIYDKEGNDV TTKILSQGL- 
+seq043           133   VTVRIDPENF EHAKEALRRA GMKFPFPFTI VVDKGEELVQ d--------- 
+seq044           134   LTVWVNPDKF PAAKEALRRA AMKLPVPCRI VIEQGKELLK l--------- 
+seq045           121   ITIETNKKNF KDAKEALRRA AMKFPVPCRI VIDRGEELVK ---------- 
+seq046           132   MSVWVKPEHF EIAKEALRRA AMKMPTPTKI VVEKGHELLK GKi------- 
+seq047           133   MIGRTDEAHA HELKIALKKA AIKLPTPCKV VITKGKEIAG AIGV------ 
+seq048           133   MIARTDEAHA KELKTALRKA AIKLPTPCKV VITKGKEIAG SLGI------ 
+seq049           134   FTVAVEKQNF KAAKEALWHA GQKLPTPCRI VVDEGAELVQ ---------- 
+seq050           136   FTAYCEVEQA AAVKEAFRRA YNKITPPCKI NVERGETLLv r--------- 
+seq051           135   LEVWARKGDE ENVKEALRRG ASKFPLPSRI VIRTRGaqas ---------- 
+seq052           137   FYAEFKPEHL PHIKEALRRA ASKLPLPTRI VIEPKGNGgn ktvt------ 
+seq053           135   IVIKVKKEHL EFAKEALKIA SKKLPLRTRI EIIPl----- ---------- 
+seq054           135   MIAKVKKEHL EIAKKAFEAA ASKIPLKTKI DIVPipkeav vq-------- 
+seq055           104   FEI--AGVSE EIAREALRLA SHKLPVKCKF VKREAE---- ---------- 
+seq056           104   FEI--AGVSE EIAREALRLA SHKLPVKCKF VKREAE---- ---------- 
+seq057           104   FEI--AGVPE DVAREALRLA AHKLPVKTKI VKREEIGGEA NES------- 
+seq058           104   FEI--SGVSE EVAREALRLA SHKLPIKTKF VKREEIGGES NES------- 
+seq059           104   FEI--SGVSE EVAREALRLA SHKLPVKCKF VKREEVGGDA NEN------- 
+seq060           104   FEV--AGVSE EVAREALRLA SHKLPVKTKF VKREELGGET NES------- 
+seq061           104   FEI--AGVTE EIAREAMRLA AYKLPIKTKF IVRSQVveeq e--------- 
+seq062           104   FEL--AGVSE EVAREAMRLA AQKLPIKTKF ISRQE----- ----DYI--- 
+seq063           104   FEM--SDVTE EQAREAFRLA SHKLPIKTKF VTRKDFEEMG GEANEg---- 
+seq064           104   YEM--DGVPE ELAREAFELA AAKLPIPTTF VVRQVGQ--- ---------- 
+seq065           104   FEI--ANVSE ELMCEALRAA GNKLPIKVKI VKKGEAN--- ---------- 
+seq066           136   LSMRTKEAYV PQAFEALRRA KMKFPGRQII VMSKYWGFTN ILRTEYEALR 
+seq067           136   LSMRTKEAYV PQAFEALRRA KMKFPGRQII VMSKYWGFTN ILRTEYEALR 
+seq068           136   LSMRTKDTYV PQALESLRRA KMKFPGRQII VISKYWGFTN ILRNEYEELR 
+seq069           136   MSIRVKPQHE AVVVAALKRA SYKFAGRQVI AKSTMWGFTE IRSENYVKWK 
+seq070           136   ISVRSKSSKA YEVIESLRRA KFKFPGKQKI IISQKWGFTF ISKINYINYi 
+seq071           136   LSIRTKESFR DAAVEALRRA KNKFPGHQKI QVSSKFGFTN MFSDEFNKLN 
+                                                                 
+                       4444333333 3444555555 5555544444 3333333333 3322222211 
+ 
+seq001           166   ---------- ---------- ---------- ---------- ------ 
+seq002           186   EAGEVKDDGA FVKFL---SK KGSLENNIRE FPEyfaaqa- ------ 
+seq003           186   SRGEIIPDGC YAKFL---NK RGSLQEKLDL FPEASFNLA- ------ 
+seq004           186   SRGEIIPDGC YAKFL---NK RGSLQEKLDL FPEASFNLA- ------ 
+seq005           186   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq006           185   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq007           186   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq008           186   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq009           186   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq010           185   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq011           185   AEKRLIPDGC GVKYI---PN RGPLDKWRAL HS-------- ------ 
+seq012           186   AEKRLIPDGC GVKYI---PS RGPLDKWRAL HS-------- ------ 
+seq013           185   AEKRLIPDGC GVKYI---PS RGPLDKWRAL HS-------- ------ 
+seq014           186   AEKRLIPDGC GVKYI---PS RGPLDKWRAL HS-------- ------ 
+seq015           186   AKKCLIPDGC GVKYV---PS HGPLDKWRVL HS-------- ------ 
+seq016           186   QEKRVIPDGC GVKYV---PS HGPLSRWKAL HAn------- ------ 
+seq017           186   DDNRLEPDGC NVKYR---PE HGPIAAWEKA QRDVYA---- ------ 
+seq018           186   DDNRLEPDGC NVKYR---PE HGPIAAWEKA QRDVYA---- ------ 
+seq019           186   EEGRLANDGC IVQYR---PE HGPLDAWRKV QAEILNV--- ------ 
+seq020           186   EEGRLANDGC IVQYR---PE HGPLDAWRKV QAEILNV--- ------ 
+seq021           186   EEGRLANDGC KVKYR---PE HGPLDAWRKI QNEIYSV--- ------ 
+seq022           186   AEGRLRSDGV GVQLQ---RE HGPLTKWIEN pi-------- ------ 
+seq023           186   QEKRIVPDGV NAKFL---SC HGPLANRQPG SAFLSAGAq- ------ 
+seq024           186   QEKRVVPDGV NAKFL---SC HGPLANRQPG SAFLPAhy-- ------ 
+seq025           186   AMKRIVPDGV NAKFL---SN HGPLANRQPG SAFISATSE- ------ 
+seq026           149   AMKRIVPDGV NAKFL---SN HGPLANRQPG SAFISATSE- ------ 
+seq027           186   SQNRILPDGV NAKLL---GC HGPLANRQPG KAFINAct-- ------ 
+seq028           186   SENRILPDGV NAKLL---GC HGRLANRKPG RAFIDAVA-- ------ 
+seq029           186   SENRIVPDGV NAKLL---GN HGPLAARQPG RAFLSSS--- ------ 
+seq030           186   SENRIVPDGV NAKLL---GC HGRLSARQPG RAFLPPTIan as---- 
+seq031           186   SEGRIMPDGV NAKLL---GC HGRLSARAPG KAFLSAA--- ------ 
+seq032           185   SEGRIMPDGV NAKLL---GC HGRLSARAPG KAFFSAA--- ------ 
+seq033           186   SEGRIVPDGV NAKLL---AN HGRLEKRAPG KAFLDAVA-- ------ 
+seq034           186   AEGRIMSDGV NAKLL---GS HGRLAKRAPG KAFLAETIqr sa---- 
+seq035           186   TENRIVPDGV NPKLL---GC RGPLSNRKPG QAFLKPAVvl ssdlva 
+seq036           186   SEGRIVPDGV DRKSRergSS HPPFAgsaa- ---------- ------ 
+seq037           157   ---------- ---------- ---------- ---------- ------ 
+seq038           157   ---------- ---------- ---------- ---------- ------ 
+seq039           158   ---------- ---------- ---------- ---------- ------ 
+seq040           182   ---------- ---------- ---------- ---------- ------ 
+seq041           182   ---------- ---------- ---------- ---------- ------ 
+seq042           182   ---------- ---------- ---------- ---------- ------ 
+seq043           174   ---------- ---------- ---------- ---------- ------ 
+seq044           175   ---------- ---------- ---------- ---------- ------ 
+seq045           161   ---------- ---------- ---------- ---------- ------ 
+seq046           175   ---------- ---------- ---------- ---------- ------ 
+seq047           177   ---------- ---------- ---------- ---------- ------ 
+seq048           177   ---------- ---------- ---------- ---------- ------ 
+seq049           174   ---------- ---------- ---------- ---------- ------ 
+seq050           177   ---------- ---------- ---------- ---------- ------ 
+seq051           175   ---------- ---------- ---------- ---------- ------ 
+seq052           181   ---------- ---------- ---------- ---------- ------ 
+seq053           170   ---------- ---------- -------RLV RQEVQS---- ------ 
+seq054           177   ---------- ---------- ---------- ---------- ------ 
+seq055           138   ---------- ---------- ---------- ---------- ------ 
+seq056           138   ---------- ---------- ---------- ---------- ------ 
+seq057           145   ---------- ---------- ---------- ---------- ------ 
+seq058           145   ---------- ---------- ---------- ---------- ------ 
+seq059           145   ---------- ---------- ---------- ---------- ------ 
+seq060           145   ---------- ---------- ---------- ---------- ------ 
+seq061           143   ---------- ---------- ---------- ---------- ------ 
+seq062           140   ---------- ---------- ---------- ---------- ------ 
+seq063           148   ---------- ---------- ---------- ---------- ------ 
+seq064           139   ---------- ---------- ---------- ---------- ------ 
+seq065           139   ---------- ---------- ---------- ---------- ------ 
+seq066           186   DAGKLEQRGT HCKLI---AP RGKITMRNVM A--------- ------ 
+seq067           186   DAGKLEQRGT HCKLI---AP KGKITMRNVM A--------- ------ 
+seq068           186   DAGKLQQRGL HVKLI---TP KGKITPYNIM A--------- ------ 
+seq069           186   EEGKFRVDGV STKIL---RN RGRLHRAKRV RAa------- ------ 
+seq070           186   nns------- ---------- ---------- ---------- ------ 
+seq071           186   ESGRIILRGG SFSVI---RE KGSIDKFKRd leyaann--- ------ 
+                                                             
+                       1111111111 1111100011 1111111000 0000000000 000000 
+ 
+
+ 
+ 
+   Sequence tree:
+   ==============
+
+Tree constructed using UPGMAbased on DIALIGN fragment weight scores
+ 
+(((((((((seq001      :0.003766seq002      :0.003766):0.000823(seq003      :0.002784seq004      :0.002784):0.001805):0.000528((((((((((((seq005      :0.002768seq007      :0.002768):0.000000seq008      :0.002768):0.000000seq009      :0.002768):0.000013seq010      :0.002781):0.000012((seq012      :0.002775seq014      :0.002775):0.000013seq013      :0.002788):0.000004):0.000016seq006      :0.002808):0.000010seq011      :0.002818):0.000128seq015      :0.002946):0.000104seq016      :0.003050):0.000745((seq017      :0.002682seq018      :0.002682):0.000416((seq019      :0.002691seq020      :0.002691):0.000135seq021      :0.002826):0.000272):0.000697):0.000591seq022      :0.004386):0.000484(((((((seq023      :0.002802seq024      :0.002802):0.000120seq025      :0.002922):0.000335(((seq027      :0.002941seq030      :0.002941):0.000072seq029      :0.003013):0.000054seq028      :0.003067):0.000189):0.000116seq035      :0.003373):0.000042(((seq031      :0.002828seq032      :0.002828):0.000387seq033      :0.003215):0.000012seq034      :0.003227):0.000188):0.000592seq036      :0.004006):0.000177seq026      :0.004183):0.000687):0.000246):0.000162((seq066      :0.002902seq067      :0.002902):0.000519seq068      :0.003421):0.001858):0.000438seq069      :0.005717):0.000134seq070      :0.005851):0.000159seq071      :0.006011):0.010619(((seq037      :0.003822seq038      :0.003822):0.000884seq039      :0.004706):0.009954(((seq040      :0.003447seq041      :0.003447):0.000077seq042      :0.003524):0.008570((((((seq043      :0.006950seq045      :0.006950):0.000273seq044      :0.007223):0.000741seq046      :0.007964):0.001435(seq047      :0.004028seq048      :0.004028):0.005371):0.000467(seq049      :0.008518seq050      :0.008518):0.001348):0.001421((seq051      :0.007763(seq053      :0.005102seq054      :0.005102):0.002661):0.000940seq052      :0.008703):0.002584):0.000807):0.002566):0.001970):0.069598((((((seq055      :0.004540seq056      :0.004540):0.001154(seq057      :0.005437(seq058      :0.004598seq059      :0.004598):0.000839):0.000257):0.000398seq060      :0.006092):0.002124((seq061      :0.005352seq062      :0.005352):0.001678seq063      :0.007030):0.001185):0.001761seq064      :0.009976):0.000570seq065      :0.010546):0.075682);
+ 
+ 
